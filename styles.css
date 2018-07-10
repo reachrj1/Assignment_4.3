@@ -1,0 +1,21 @@
+/* setting the img width and height property*/
+article img
+{
+top: 50%;
+width:50px;
+height: 50px;
+transform: translateY(-50%);  /** This will make the image to be positioned vertically ****/
+position: relative;
+}
+
+body
+{
+ margin:0;
+}
+
+/* setting the border for article*/
+article
+{
+height:200px;
+border: solid 1px;
+}
